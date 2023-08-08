@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apollo - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 43);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(151, 151, 241);
+        font-size: 1.05rem;
+      }
+      main hr {
+        border: 0;
+        background: #733e9f;
+        height: 1px;
+        margin: 40px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+      .leftSection .buttons{
+        padding: 50px 0px;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        font-size: 20px;
+        background: #3e1a5f;
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 60%;
+      }
+
+      .purple {
+        color: rgb(145, 79, 207);
+      }
+
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(145, 79, 207);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 86px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 180px;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .image-top {
+        width: 56px;
+        position: relative;
+        top: -65px;
+        left: -27px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 100px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background: rgb(18, 18, 63);
+      }
+      .footer {
+        display: flex;
+        padding: 20px 0px 0px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-rights{
+        text-align: center;
+        padding: 12px;
+        color: gray;
+
+      }
+      .footer-first{
+        width: 250px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Apollo's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Apollo</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="coding.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="html.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2020-2021)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque culpa in distinctio nobis facilis eum sapiente tenetur
+              delectus, optio, excepturi mollitia! Consectetur, enim?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="bootstrap.png" alt="" class="image-top" />
+            <div class="vertical-title">Bootstrap Developer (2021-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque culpa in distinctio nobis facilis eum sapiente tenetur
+              delectus, optio, excepturi mollitia! Consectetur, enim?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="css.png" alt="" class="image-top" />
+            <div class="vertical-title">CSS Developer (2022-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque culpa in distinctio nobis facilis eum sapiente tenetur
+              delectus, optio, excepturi mollitia! Consectetur, enim?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="python.png" alt="" class="image-top" />
+            <div class="vertical-title">Python Developer (2019-2023)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque culpa in distinctio nobis facilis eum sapiente tenetur
+              delectus, optio, excepturi mollitia! Consectetur, enim?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">Apollo's Developer Portfolio</div>
+        <div class="footer-second">Home</div>
+        <div class="footer-third">Services</div>
+        <div class="footer-fourth">Contact</div>
+      </div>
+      <div class="footer-rights">
+        Copyright&#169 apollosportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Guitarist"],
+        typeSpeed: 90,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
